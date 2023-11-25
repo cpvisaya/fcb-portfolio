@@ -1,0 +1,30 @@
+*{
+	font-family: 'Roboto', sans-serif;
+
+}
+
+h1, p{
+	font-family: 'Montserrat', sans-serif;
+}
+
+#profile{
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+
+}
+
+body{
+	background-color: #ff7700;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23c40000' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23b40000' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23c1001d' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23ae0018' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23bd0043' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23a3002d' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23b50055' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23820041' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23cf006f' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%23a30065' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23c00085' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%238a0086' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
+}
+
+#landing{
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
